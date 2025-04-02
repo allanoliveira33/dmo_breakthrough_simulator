@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: "Tabelas de Status",
-            text: "Nestas tabelas você pode visualizar e interagir com os slots de melhoria para cada status selecionado.",
+            text: "Nestas tabelas você pode visualizar e interagir com os slots de melhoria para cada status selecionado. Quanto mais a direita for o slot, mais status ele irá dar. Por isso, você deve tentar melhorar os slots mais a direita com probabilidades de sucesso mais altas.",
             element: "#positive-board"
         },
         {
             title: "Tabelas de Status Negativos",
-            text: "Da mesma forma, aqui você pode melhorar os status negativos do seu Digimon.",
+            text: "Da mesma forma, aqui você pode subir os status negativos do seu Digimon. Dica: Você quer evitar que haja sucessos aqui. Use esses slots para tentar falhar e subir a chance de sucesso, mas tome cuidado com o limite de tentativas.",
             element: "#negative-board"
         }
     ];
