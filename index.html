@@ -213,6 +213,28 @@
                 background-color: #e6e6e6;
                 font-weight: bold;
             }
+            
+            .donation-section {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: white;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                max-width: 200px;
+                text-align: center;
+                z-index: 100;
+            }
+            
+            .qr-code-img {
+                width: 150px;
+                height: 150px;
+                display: block;
+                margin: 10px auto 0;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
         </style>
     </head>
 <body>
@@ -387,6 +409,11 @@
                     <!-- Will be filled by JavaScript -->
                 </tbody>
             </table>
+        </div>
+        <!-- Adicione este código antes da tag de fechamento </div> da classe "container" -->
+        <div class="donation-section">
+            <p>Caso queira ajudar, pode fazer uma doação - Chave Pix:</p>
+            <img src="qr_code.jpg" alt="QR Code para doação via Pix" class="qr-code-img">
         </div>
     </div>
 
